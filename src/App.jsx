@@ -1,11 +1,14 @@
 import React, { useState } from 'react'
+import Front from './components/Front';
+import Back from './components/Back';
 
 function App() {
 
   return (
     <>
-      <div>
-        Hello
+      <div className="card-contianer">
+        <Front />
+        <Back />
       </div>
     </>
   )
